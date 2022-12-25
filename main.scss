@@ -7,6 +7,7 @@
 
 * {
   text-align: center;
+  opacity: 1;
 }
 
 html, body {
@@ -18,9 +19,15 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  background: black;
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.73)),
+    url('./bg.gif');
+  opacity: 1;
   color: white;
   display: flex;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
   flex-direction: column;
   align-items: center;
   justify-content: center;
