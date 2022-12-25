@@ -5,6 +5,10 @@
   font-weight: 400;
 }
 
+* {
+  text-align: center;
+}
+
 html, body {
   position: relative;
   width: 100%;
