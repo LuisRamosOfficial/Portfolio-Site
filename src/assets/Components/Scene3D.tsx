@@ -1,17 +1,17 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { FC, useEffect, useRef, useState } from 'react'
 import styles from '../styles/Scene3D.module.scss'
 import { Canvas, useFrame, useLoader} from '@react-three/fiber';
 import {
-	OrbitControls,
 	Stars,
 	PerspectiveCamera,
-    Sky 
 } from '@react-three/drei';
 import icon from '../../../public/icon.png';
 import * as THREE from 'three';
 
 interface Props {
-	scroll: any
+	scroll?: any;
 }
 
 
@@ -59,7 +59,8 @@ const Scene3D: FC<Props> = ({scroll}) => {
 	);
 }
 
-const Box = ({scroll}: any) => {
+
+const Box: FC<Props> = ({scroll}) => {
     const boxRef = useRef<THREE.Mesh>(null);
     let deltay = true
     useFrame(() => {
