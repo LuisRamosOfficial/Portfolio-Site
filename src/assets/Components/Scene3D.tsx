@@ -70,7 +70,6 @@ const Box = ({scroll}: any) => {
 			return
 		}
         const t = scroll.current.getBoundingClientRect().top;
-		console.log(t)
 		
 		boxRef.current.position.x = t * -0.01
         boxRef.current.rotation.y += 0.01 + (t * -0.0005);

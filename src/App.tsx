@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import styles from './assets/styles/App.module.scss';
 import Scene3D from './assets/Components/Scene3D';
 import Title from './assets/Components/Title';
 import { useRef} from 'react';
+
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
   return (
     <div ref={AppRef} className={styles.App}>
       <Scene3D scroll={AppRef}   /> 
-      <Title     />
+      <Title   />
     </div>
   )
 }

@@ -10,7 +10,20 @@ div.Title {
         font-size: clamp(2rem, calc(3vw + 5vh), 10rem);
         background-color: black;
         padding: 0 1rem 0.7rem 1rem;
-        transform: translateY(-50px);
         font-weight: bold;
+        transition: all 1s ease-out;
     }
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0) translateY(-50px);
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%) translateY(-50px);
+
 }
