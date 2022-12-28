@@ -60,7 +60,7 @@ const Scene3D: FC<Props> = ({scroll}) => {
 }
 
 
-const Box: FC<Props> = ({scroll}) => {
+const Box = ({scroll} : any) => {
     const boxRef = useRef<THREE.Mesh>(null);
     let deltay = true
     useFrame(() => {
