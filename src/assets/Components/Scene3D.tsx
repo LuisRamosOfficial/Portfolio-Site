@@ -7,7 +7,7 @@ import {
 	Stars,
 	PerspectiveCamera,
 } from '@react-three/drei';
-import icon from '../../../public/icon.png';
+import icon from '../../icon.png';
 import * as THREE from 'three';
 
 interface Props {
@@ -21,7 +21,7 @@ const Scene3D: FC<Props> = ({scroll}) => {
 	useEffect(() => {
 		const width = window.innerWidth
 		console.log(width)
-		if (width < 500) {
+		if (width < 700) {
 			setWidescreen(false)
 		}
 
