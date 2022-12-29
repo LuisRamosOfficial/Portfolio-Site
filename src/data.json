@@ -14,7 +14,7 @@
 				"Icon": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
 			},
 			{
-				"Name": "Javascript/TypeScript",
+				"Name": "TypeScript",
 				"Icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
 			},
 			{
@@ -46,7 +46,7 @@
 		],
 		"Back-End": [
 			{
-				"Name": "Django (Python)",
+				"Name": "Django \n(Python)",
 				"Icon": "https://framagit.org/uploads/-/system/project/avatar/28062/django.png"
 			}
 		]

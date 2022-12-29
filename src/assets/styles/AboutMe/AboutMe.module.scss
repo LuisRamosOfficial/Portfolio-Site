@@ -28,11 +28,16 @@ main.main {
         }
 	    height: 572px;
         h1 {
+        width: 100%;
 		font-size: 3rem;
 		margin-bottom: 1rem;
+        text-align: center;
 	    }
         div.SkillRow {
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             
             h2.SkillTitle {
                 margin-bottom: 1rem;
@@ -45,7 +50,7 @@ main.main {
                 width: 70%;
                 div.Skill {
                     display: flex;
-                    justify-content: center;
+                    align-items: center;
                     flex-direction: column;
                     p.SkillName {
                         text-overflow: none;
@@ -56,6 +61,7 @@ main.main {
                     img.SkillImg {
                         max-width: 60px;    
                     }
+                    margin-bottom: 1rem;
                 }
             }
         }
@@ -93,5 +99,90 @@ main.main {
 				background-color: darken($button-color, 7%);
 			}
 		}
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+
+
+	main.main {        
+		width: 100%;
+		grid-template-rows: 100px 1fr;
+		grid-template-columns: 1fr;
+        div.desc {
+            margin: 0;
+			grid-row: 2;
+            div.AboutMeSection {
+                h1 {
+                    margin-top: 5rem;
+                    font-size: 3rem;
+                    margin-bottom: 1rem;
+                }
+                p {
+                    width: 90%;
+                    text-align: justify;
+                    text-justify: inter-word;
+                    font-family: 'Raleway', sans-serif;
+                }                
+            }
+        }
+        div.buttons {
+            margin-top: 0;
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			button {
+				padding: 0.5rem;
+				width: 100%;
+				outline: none;
+				border: none;
+				font-size: 1.5rem;
+				font-weight: bold;
+				cursor: pointer;
+			}
+        }
+	// 	div {
+	// 		&:first-child {
+	// 			margin: 0;
+	// 			grid-row: 2;
+	// 		}
+	// 		.buttons {
+	// 			margin-top: 0;
+	// 			width: 100%;
+	// 			display: flex;
+	// 			flex-direction: row;
+	// 			justify-content: center;
+	// 			align-items: center;
+	// 			button {
+	// 				padding: 0.5rem;
+	// 				width: 100%;
+	// 				outline: none;
+	// 				border: none;
+	// 				font-size: 1.5rem;
+	// 				font-weight: bold;
+	// 				cursor: pointer;
+	// 			}
+	// 		}
+	// 	}
+	// }
+	// .desc {
+	// 	h1 {
+	// 		margin-top: 5rem;
+	// 		font-size: 3rem;
+	// 		margin-bottom: 1rem;
+	// 	}
+	// 	p {
+	// 		width: 90%;
+	// 		// text-align: center;
+	// 		// text-justify: auto;
+	// 		text-align: justify;
+	// 		text-justify: inter-word;
+	// 		font-family: 'Raleway', sans-serif;
+	// 	}
 	}
 }
