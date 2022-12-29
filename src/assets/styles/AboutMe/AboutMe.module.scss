@@ -1,0 +1,97 @@
+$background-color : #141414;
+$text-color : #ffffff;
+$button-color : lighten($background-color, 5%);
+
+
+main.main {
+	width: 90%;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+    div.desc {
+        div.AboutMeSection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            	h1 {
+                    font-size: 3rem;
+                    margin-bottom: 1rem;
+                }
+                	p {
+                        width: 70%;
+                        // text-align: center;
+                        // text-justify: auto;
+                        text-align: justify;
+                        text-justify: inter-word;
+                        font-family: 'Raleway', sans-serif;
+                    }
+        }
+	    height: 572px;
+        h1 {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+	    }
+        div.SkillRow {
+            width: 100%;
+            
+            h2.SkillTitle {
+                margin-bottom: 1rem;
+            }
+            div.SkillList {
+                flex-direction: row;
+                display: flex;
+                justify-content: center;
+                gap: 0.5rem;
+                width: 70%;
+                div.Skill {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    p.SkillName {
+                        text-overflow: none;
+                        margin-bottom: 5px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                    img.SkillImg {
+                        max-width: 60px;    
+                    }
+                }
+            }
+        }
+    }
+
+	div.buttons {
+        
+        max-height: 142px;
+        margin-top: 6rem;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		button {
+			padding: 1rem;
+			width: 100%;
+			outline: none;
+			border: none;
+			font-size: 2rem;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		.active {
+			&:hover {
+				background-color: darken(white, 7%);
+			}
+			background-color: white;
+			color: $button-color;
+		}
+		.deactive {
+			background-color: $button-color;
+			color: white;
+			&:hover {
+				background-color: darken($button-color, 7%);
+			}
+		}
+	}
+}

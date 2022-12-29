@@ -1,0 +1,87 @@
+main.main {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+main.main div.desc {
+  height: 572px;
+}
+main.main div.desc div.AboutMeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+main.main div.desc div.AboutMeSection h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+main.main div.desc div.AboutMeSection p {
+  width: 70%;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "Raleway", sans-serif;
+}
+main.main div.desc h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+main.main div.desc div.SkillRow {
+  width: 100%;
+}
+main.main div.desc div.SkillRow h2.SkillTitle {
+  margin-bottom: 1rem;
+}
+main.main div.desc div.SkillRow div.SkillList {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 70%;
+}
+main.main div.desc div.SkillRow div.SkillList div.Skill {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main.main div.desc div.SkillRow div.SkillList div.Skill p.SkillName {
+  text-overflow: none;
+  margin-bottom: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+main.main div.desc div.SkillRow div.SkillList div.Skill img.SkillImg {
+  max-width: 60px;
+}
+main.main div.buttons {
+  max-height: 142px;
+  margin-top: 6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main.main div.buttons button {
+  padding: 1rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+main.main div.buttons .active {
+  background-color: white;
+  color: #212121;
+}
+main.main div.buttons .active:hover {
+  background-color: #ededed;
+}
+main.main div.buttons .deactive {
+  background-color: #212121;
+  color: white;
+}
+main.main div.buttons .deactive:hover {
+  background-color: #0f0f0f;
+}/*# sourceMappingURL=AboutMe.module.css.map */

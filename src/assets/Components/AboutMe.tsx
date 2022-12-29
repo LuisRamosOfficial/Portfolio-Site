@@ -1,13 +1,13 @@
 import React, { FC, useEffect, useState } from 'react';
-import styles from '../styles/AboutMe.module.scss';
+import styles from '../styles/AboutMe/AboutMe.module.css';
 import data from '../../data.json';
 
 const AboutMe: FC = () => {
 	const [Active, setActive] = useState<number>(0);
 	useEffect(() => {
-		console.log(data.Skills)
-		console.log(Object.keys(data.Skills))
-	}, [])
+		console.log(data.Skills);
+		console.log(Object.keys(data.Skills));
+	}, []);
 
 	const clickHandler = (order: number) => {
 		setActive(order);
@@ -39,7 +39,7 @@ const AboutMe: FC = () => {
 
 const AboutMeSection = () => {
 	return (
-		<>
+		<div className={styles.AboutMeSection}>
 			<h1>About Me</h1>
 			<p>
 				Hello! My name is Luis, and I&apos;m a Junior Software Engineer.
@@ -52,27 +52,36 @@ const AboutMeSection = () => {
 				take me. I&apos;m passionate, expressive, multi-talented spirit with a
 				natural ability to entertain and inspire. I&apos;m never satisfied to
 				just come up with ideas. Instead I have an almost impulsive need to act
-				on them. 
+				on them.
 				<br></br>
 				<br></br>
-				I&apos;m a fast learner, able to pick up new skills and juggle
-				different projects and roles with relative ease.
+				I&apos;m a fast learner, able to pick up new skills and juggle different
+				projects and roles with relative ease.
 			</p>
-		</>
+		</div>
 	);
 };
 const SkillsSection = () => {
 	return (
 		<>
-			<h1>Skills</h1>
+			<h1 className={styles.skillsHeader}>Skills</h1>
 			{Object.keys(data.Skills).map((e: string, index) => (
-				<div key={index}>
-					<h2 key={index}>{e}:</h2>
-					<span key={index + 1} className={styles.SkillSection}>
+				
+                
+                <div className={styles.SkillRow} key={index}>
+					<h2 className={styles.SkillTitle} key={index}>{e}:</h2>
+
+
+					<div key={index + 1} className={styles.SkillList}>
 						{data.Skills[e as keyof typeof data.Skills].map((el, index) => (
-							<img alt={el.Name} className={styles.skillImg} src={el.Icon} key={index} />
+							// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+							//@ts-ignore
+							<div key={index + 2} className={styles.Skill}>
+								<p className={styles.SkillName}>{el.Name}</p>
+								<img data-name={el.Name} alt={el.Name} className={styles.SkillImg} src={el.Icon} key={index}/>
+							</div>
 						))}
-					</span>
+					</div>
 				</div>
 			))}
 		</>
