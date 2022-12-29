@@ -5,7 +5,12 @@ main.main {
 	width: 90%;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
+	.buttons {
+			max-height: 142px;
+			margin-top: 6rem;
+		}
 	div {
+		
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -37,6 +42,7 @@ main.main {
 	}
 }
 
+
 .empty {
 	height: 0px;
 }
@@ -46,6 +52,22 @@ main.main {
 		font-size: 3rem;
 		margin-bottom: 1rem;
 	}
+	div {
+		margin: 0;
+		h2 {
+			margin-bottom: 1rem;
+		}
+		span {
+			display: flex;
+			justify-content: center;
+			gap: 1rem;
+			width: 60%;
+			img {
+				max-width: 50px;
+				margin-bottom: 2rem;
+			}
+		}
+	}
 	p {
 		width: 70%;
 		// text-align: center;
@@ -53,6 +75,12 @@ main.main {
 		text-align: justify;
 		text-justify: inter-word;
 		font-family: 'Raleway', sans-serif;
+	}
+	.SkillsSection {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		
 	}
 }
 
@@ -67,7 +95,8 @@ main.main {
 				margin: 0;
 				grid-row: 2;
 			}
-			&:last-child {
+			.buttons {
+				margin-top: 0;
 				width: 100%;
 				display: flex;
 				flex-direction: row;
@@ -87,6 +116,7 @@ main.main {
 	}
 	.desc {
 		h1 {
+			margin-top: 5rem;
 			font-size: 3rem;
 			margin-bottom: 1rem;
 		}
