@@ -1,4 +1,101 @@
 div.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  height: 100px;
+  min-height: 100px;
+  margin-bottom: 10rem;
+}
+div.slider h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+div.slider p {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+div.slider div.ProjectList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.slider div.ProjectList div.Project {
+  border-radius: 50px;
+  aspect-ratio: 16/9;
+  width: 100%;
+  position: relative;
+}
+div.slider div.ProjectList div.Project:hover > div.background {
+  filter: brightness(1);
+}
+div.slider div.ProjectList div.Project div.background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  transition: filter 500ms ease-out;
+  top: 0;
+  filter: brightness(0.7);
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+div.slider div.ProjectList div.Project div.titlebar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.93);
+  border-radius: 50px 50px 0px 0px;
+  height: 15%;
+  display: grid;
+  place-items: center;
+}
+div.slider div.ProjectList div.Project div.titlebar h2 {
+  font-size: 2rem;
+}
+div.slider div.ProjectList div.Project div.footbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 50px 50px;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.slider div.ProjectList div.Project div.footbar h4 {
+  width: 70%;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align: center;
+}
+div.slider div.ProjectList div.Project div.footbar div.buttons {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.slider div.ProjectList div.Project div.footbar div.buttons button {
+  width: 150px;
+  border: none;
+  outline: none;
+  background: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 200ms ease-out;
+}
+div.slider div.ProjectList div.Project div.footbar div.buttons button:hover {
+  filter: brightness(0.9);
+  transform: scale(1.1);
+}
+div.slider div.ProjectList div.Project div.footbar div.buttons button:active {
+  transform: scale(0.9);
+}
+div.slider div.ProjectList div.Project div.footbar div.buttons button img {
+  border-radius: 10px;
+  width: 100%;
 }/*# sourceMappingURL=ProjectSlider.module.css.map */
