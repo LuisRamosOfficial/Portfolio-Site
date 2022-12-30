@@ -13,7 +13,20 @@ div.slider h1 {
 }
 div.slider p {
   text-align: center;
+  margin-bottom: 0.5rem;
+}
+div.slider h5 {
   margin-bottom: 3rem;
+}
+div.slider div.Controls {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+div.slider div.Controls img {
+  width: 50px;
+  cursor: pointer;
 }
 div.slider div.ProjectList {
   display: flex;

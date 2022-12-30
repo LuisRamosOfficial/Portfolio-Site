@@ -67,11 +67,11 @@
 			"Github": "https://github.com/LuisRamosOfficial/API-JSON-Saver"
 		},
 		{
-			"Name": "Exchange Rate in NextJS",
-			"ScreenShot": "https://github.com/LuisRamosOfficial/Exchange-Rate-in-NextJS/raw/main/Screenshots/2.png",
-			"Description": "A website where you can calculate live currency and foreign exchange rates with the Exchange Rate API",
+			"Name": "Registration Page with React",
+			"ScreenShot": "https://github.com/LuisRamosOfficial/Registration-Page-with-React/raw/main/Screenshots/2.png",
+			"Description": "A Registration Page with React and some good loking CSS Animations",
 			"Demo": "http://exchange-rate-in-next-js.vercel.app/",
-			"Github": "https://github.com/LuisRamosOfficial/Exchange-Rate-in-NextJS"
+			"Github": "https://github.com/LuisRamosOfficial/Registration-Page-with-React"
 		}
 	]
 }
