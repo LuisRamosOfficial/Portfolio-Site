@@ -55,10 +55,10 @@ const ProjectSlider: FC = () => {
 	const CarouselSettings = {
 		infiniteLoop: true,
 		centerMode: false,
-		useKeyboardArrows: true,
+		useKeyboardArrows: false,
 		showStatus: false,
-		swipeable: true,
-		emulateTouch: true,
+		swipeable: false,
+		emulateTouch: false,
 		showArrows: false,
 		showIndicators: false,
 		selectedItem: currentSlider,
