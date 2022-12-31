@@ -4,7 +4,6 @@ div.slider {
   align-items: center;
   width: 100%;
   min-height: 100px;
-  margin-bottom: 10rem;
 }
 div.slider h1 {
   font-size: 3rem;
@@ -17,6 +16,7 @@ div.slider p {
 }
 div.slider h5 {
   margin-bottom: 3rem;
+  text-align: center;
 }
 div.slider div.Controls {
   width: 50%;
@@ -27,6 +27,10 @@ div.slider div.Controls {
 div.slider div.Controls img {
   width: 50px;
   cursor: pointer;
+  transition: filter 200ms ease-out;
+}
+div.slider div.Controls img:hover {
+  filter: brightness(0.6);
 }
 div.slider div.ProjectList {
   display: flex;
@@ -65,7 +69,7 @@ div.slider div.ProjectList div.Project div.titlebar {
   place-items: center;
 }
 div.slider div.ProjectList div.Project div.titlebar h2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 div.slider div.ProjectList div.Project div.footbar {
   position: absolute;
@@ -81,7 +85,8 @@ div.slider div.ProjectList div.Project div.footbar {
   justify-content: space-evenly;
 }
 div.slider div.ProjectList div.Project div.footbar h4 {
-  width: 70%;
+  font-size: 1.5rem;
+  width: 95%;
   text-align: justify;
   text-justify: inter-word;
   text-align: center;
@@ -111,4 +116,51 @@ div.slider div.ProjectList div.Project div.footbar div.buttons button:active {
 div.slider div.ProjectList div.Project div.footbar div.buttons button img {
   border-radius: 10px;
   width: 100%;
+}
+div.slider div.ControlDots {
+  display: flex;
+}
+div.slider div.ControlDots p {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  div.slider div.ProjectList div.Project div.titlebar h2 {
+    font-size: 2rem;
+  }
+  div.slider div.ProjectList div.Project div.footbar h4 {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  div.slider {
+    margin: 0;
+  }
+  div.slider div.ProjectList div.Project {
+    aspect-ratio: 16/14;
+  }
+  div.slider div.ProjectList div.Project div.titlebar h2 {
+    font-size: 1.3rem;
+  }
+  div.slider div.ProjectList div.Project div.footbar h4 {
+    font-size: 0.8rem;
+  }
+  div.slider div.ProjectList div.Project div.footbar div.buttons {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  div.slider div.ProjectList div.Project div.footbar div.buttons button {
+    width: 100px;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 10px;
+  }
+  div.slider div.ProjectList div.Project div.footbar div.buttons button img {
+    border-radius: 10px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=ProjectSlider.module.css.map */

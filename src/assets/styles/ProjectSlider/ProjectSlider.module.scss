@@ -1,10 +1,12 @@
+
+
+
 div.slider {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
 	min-height: 100px;
-	margin-bottom: 10rem;
 	h1 {
 		font-size: 3rem;
 		text-decoration: underline;
@@ -15,8 +17,8 @@ div.slider {
 		margin-bottom: 0.5rem;
 	}
 	h5 {
-		
 		margin-bottom: 3rem;
+		text-align: center;
 	}
 	div.Controls {
 		width: 50%;
@@ -26,17 +28,21 @@ div.slider {
 		img {
 			width: 50px;
 			cursor: pointer;
+			transition: filter 200ms ease-out;
+			&:hover {
+				filter: brightness(0.6);
+			}
 		}
 	}
 	div.ProjectList {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
 		div.Project {
 			border-radius: 50px;
 			aspect-ratio: 16/9;
-		     width: 100%;
+			width: 100%;
 			position: relative;
 			&:hover > div.background {
 				filter: brightness(1);
@@ -64,7 +70,7 @@ div.slider {
 				display: grid;
 				place-items: center;
 				h2 {
-					font-size: 2rem;
+					font-size: 3rem;
 				}
 			}
 			div.footbar {
@@ -80,7 +86,8 @@ div.slider {
 				align-items: center;
 				justify-content: space-evenly;
 				h4 {
-					width: 70%;
+					font-size: 1.5rem;
+					width: 95%;
 					text-align: justify;
 					text-justify: inter-word;
 					text-align: center;
@@ -108,6 +115,72 @@ div.slider {
 						img {
 							border-radius: 10px;
 							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	div.ControlDots {
+		display: flex;
+		p {
+			font-size: 2rem;
+			cursor: pointer;
+		}
+
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	div.slider {
+		div.ProjectList {
+			div.Project {
+				div.titlebar {
+					h2 {
+						font-size: 2rem;
+					}
+				}
+				div.footbar {
+					h4 {
+						font-size: 1.4rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	div.slider {
+		margin: 0;
+		div.ProjectList {
+			div.Project {
+				aspect-ratio: 16/14;
+				div.titlebar {
+					h2 {
+						font-size: 1.3rem;
+					}
+				}
+				div.footbar {
+					h4 {
+						font-size: 0.8rem;
+					}
+
+					div.buttons {
+						width: 90%;
+						display: flex;
+						align-items: center;
+						justify-content: space-evenly;
+						button {
+							width: 100px;
+							border: none;
+							outline: none;
+							background: none;
+							border-radius: 10px;
+							img {
+								border-radius: 10px;
+								width: 100%;
+							}
 						}
 					}
 				}
