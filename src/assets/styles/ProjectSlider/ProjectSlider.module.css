@@ -135,7 +135,7 @@ div.slider div.ControlDots p {
 }
 @media screen and (max-width: 700px) {
   div.slider {
-    margin: 0;
+    margin-top: 5rem;
   }
   div.slider div.ProjectList div.Project {
     aspect-ratio: 16/14;
