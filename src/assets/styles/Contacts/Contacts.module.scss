@@ -6,22 +6,30 @@ div.Container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	h1 {
+	h1.hidden {
 		font-size: 4rem;
+		transform: translateX(-100vw);
+	}
+	h1.show {
+		transition: all 1s ease-out;
+		transform: translateX(0);
+		font-size: 4rem;
+		
 	}
 	div.ContactsList {
-		margin-top: 4rem;
+		margin: 0;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
 		place-items: center;
 		gap: 30px;
 		img.Icon {
-            transition: all calc(1s * var(--order)) ease-out;
+			transform: translateX(0px);
+			transition: all calc(1s * var(--order)) ease-out;
 			width: 60px;
+			cursor: pointer;
 		}
         img.hidden {
-            transition: all 2s ease-out;
             width: 60px;
             transform: translateX(-100vw);
         }
@@ -31,7 +39,20 @@ div.Container {
             grid-column-end: 4;
 			display: flex;
 			align-items: center;
+			transition: all calc(1s * var(--order)) ease-out;
+			transform: translateX(0);
             img {
+                width: 60px;
+            }
+            p {
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+		}
+		div.hidden {
+            width: 60px;
+            transform: translateX(-100vw);
+			 img {
                 width: 60px;
             }
             p {
