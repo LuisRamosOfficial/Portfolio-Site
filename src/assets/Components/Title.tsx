@@ -24,7 +24,7 @@ const Title: FC = () => {
 	return (
 		<div className={styles.Title}>
 			<p className={intersecting ? styles.show : styles.hidden} ref={textRef}>
-				Luís Viegas
+				Luís Ramos
 			</p>
 		</div>
 	);
