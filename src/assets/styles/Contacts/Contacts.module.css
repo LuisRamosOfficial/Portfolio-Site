@@ -10,11 +10,15 @@ div.Container {
 div.Container h1.hidden {
   font-size: 4rem;
   transform: translateX(-100vw);
+  text-decoration: underline;
+  margin-bottom: 4rem;
 }
 div.Container h1.show {
   transition: all 1s ease-out;
   transform: translateX(0);
   font-size: 4rem;
+  text-decoration: underline;
+  margin-bottom: 4rem;
 }
 div.Container div.ContactsList {
   margin: 0;
@@ -29,6 +33,10 @@ div.Container div.ContactsList img.Icon {
   transition: all calc(1s * var(--order)) ease-out;
   width: 60px;
   cursor: pointer;
+}
+div.Container div.ContactsList img.Icon:hover {
+  transition: transform 200ms ease-out;
+  transform: scale(1.3);
 }
 div.Container div.ContactsList img.hidden {
   width: 60px;
@@ -60,4 +68,19 @@ div.Container div.ContactsList div.hidden img {
 div.Container div.ContactsList div.hidden p {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 700px) {
+  div.Container div.ContactsList div.EmailContainer img {
+    width: 40px;
+  }
+  div.Container div.ContactsList div.EmailContainer p {
+    font-size: 1.2rem;
+  }
+  div.Container div.ContactsList div.hidden img {
+    width: 40px;
+  }
+  div.Container div.ContactsList div.hidden p {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=Contacts.module.css.map */

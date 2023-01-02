@@ -1,76 +1,78 @@
-$background-color : #141414;
-$text-color : #ffffff;
-$button-color : lighten($background-color, 5%);
-
+$background-color: #141414;
+$text-color: #ffffff;
+$button-color: lighten($background-color, 5%);
 
 main.main {
+	margin-top: 12rem;
 	width: 90%;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-    div.desc {
-        div.AboutMeSection {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            	h1 {
-                    font-size: 3rem;
-                    margin-bottom: 1rem;
-                }
-                	p {
-                        width: 70%;
-                        // text-align: center;
-                        // text-justify: auto;
-                        text-align: justify;
-                        text-justify: inter-word;
-                        font-family: 'Raleway', sans-serif;
-                    }
-        }
-	    height: 572px;
-        h1 {
-        width: 100%;
-		font-size: 3rem;
-		margin-bottom: 1rem;
-        text-align: center;
-	    }
-        div.SkillRow {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-            h2.SkillTitle {
-                margin-bottom: 1rem;
-            }
-            div.SkillList {
-                flex-direction: row;
-                display: flex;
-                justify-content: center;
-                gap: 0.5rem;
-                width: 70%;
-                div.Skill {
-                    display: flex;
-                    align-items: center;
-                    flex-direction: column;
-                    p.SkillName {
-                        text-overflow: none;
-                        margin-bottom: 5px;
-                        overflow: hidden;
-                        white-space: nowrap;
-                    }
-                    img.SkillImg {
-                        max-width: 60px;    
-                    }
-                    margin-bottom: 1rem;
-                }
-            }
-        }
-    }
+	div.desc {
+		div.AboutMeSection {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			h1 {
+				text-decoration: underline;
+				font-size: 3rem;
+				margin-bottom: 1rem;
+			}
+
+			p {
+				width: 70%;
+				// text-align: center;
+				// text-justify: auto;
+				text-align: justify;
+				text-justify: inter-word;
+				font-family: 'Raleway', sans-serif;
+			}
+		}
+		height: 572px;
+		h1 {
+			text-decoration: underline;
+			width: 100%;
+			font-size: 3rem;
+			margin-bottom: 1rem;
+			text-align: center;
+		}
+		div.SkillRow {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			h2.SkillTitle {
+				margin-bottom: 1rem;
+			}
+			div.SkillList {
+				flex-direction: row;
+				display: flex;
+				justify-content: center;
+				gap: 0.5rem;
+				width: 70%;
+				div.Skill {
+					display: flex;
+					align-items: center;
+					flex-direction: column;
+					p.SkillName {
+						text-overflow: none;
+						margin-bottom: 5px;
+						overflow: hidden;
+						white-space: nowrap;
+					}
+					img.SkillImg {
+						max-width: 60px;
+					}
+					margin-bottom: 1rem;
+				}
+			}
+		}
+	}
 
 	div.buttons {
-        
-        max-height: 142px;
-        margin-top: 6rem;
+		max-height: 142px;
+		margin-top: 6rem;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -102,35 +104,31 @@ main.main {
 	}
 }
 
-
 @media screen and (max-width: 800px) {
-
-
-
-
-	main.main {        
+	main.main {
+		margin-top: 1rem;
 		width: 100%;
 		grid-template-rows: 100px 1fr;
 		grid-template-columns: 1fr;
-        div.desc {
-            margin: 0;
+		div.desc {
+			margin: 0;
 			grid-row: 2;
-            div.AboutMeSection {
-                h1 {
-                    margin-top: 5rem;
-                    font-size: 3rem;
-                    margin-bottom: 1rem;
-                }
-                p {
-                    width: 90%;
-                    text-align: justify;
-                    text-justify: inter-word;
-                    font-family: 'Raleway', sans-serif;
-                }                
-            }
-        }
-        div.buttons {
-            margin-top: 0;
+			div.AboutMeSection {
+				h1 {
+					margin-top: 5rem;
+					font-size: 3rem;
+					margin-bottom: 1rem;
+				}
+				p {
+					width: 90%;
+					text-align: justify;
+					text-justify: inter-word;
+					font-family: 'Raleway', sans-serif;
+				}
+			}
+		}
+		div.buttons {
+			margin-top: 0;
 			width: 100%;
 			display: flex;
 			flex-direction: row;
@@ -145,44 +143,44 @@ main.main {
 				font-weight: bold;
 				cursor: pointer;
 			}
-        }
-	// 	div {
-	// 		&:first-child {
-	// 			margin: 0;
-	// 			grid-row: 2;
-	// 		}
-	// 		.buttons {
-	// 			margin-top: 0;
-	// 			width: 100%;
-	// 			display: flex;
-	// 			flex-direction: row;
-	// 			justify-content: center;
-	// 			align-items: center;
-	// 			button {
-	// 				padding: 0.5rem;
-	// 				width: 100%;
-	// 				outline: none;
-	// 				border: none;
-	// 				font-size: 1.5rem;
-	// 				font-weight: bold;
-	// 				cursor: pointer;
-	// 			}
-	// 		}
-	// 	}
-	// }
-	// .desc {
-	// 	h1 {
-	// 		margin-top: 5rem;
-	// 		font-size: 3rem;
-	// 		margin-bottom: 1rem;
-	// 	}
-	// 	p {
-	// 		width: 90%;
-	// 		// text-align: center;
-	// 		// text-justify: auto;
-	// 		text-align: justify;
-	// 		text-justify: inter-word;
-	// 		font-family: 'Raleway', sans-serif;
-	// 	}
+		}
+		// 	div {
+		// 		&:first-child {
+		// 			margin: 0;
+		// 			grid-row: 2;
+		// 		}
+		// 		.buttons {
+		// 			margin-top: 0;
+		// 			width: 100%;
+		// 			display: flex;
+		// 			flex-direction: row;
+		// 			justify-content: center;
+		// 			align-items: center;
+		// 			button {
+		// 				padding: 0.5rem;
+		// 				width: 100%;
+		// 				outline: none;
+		// 				border: none;
+		// 				font-size: 1.5rem;
+		// 				font-weight: bold;
+		// 				cursor: pointer;
+		// 			}
+		// 		}
+		// 	}
+		// }
+		// .desc {
+		// 	h1 {
+		// 		margin-top: 5rem;
+		// 		font-size: 3rem;
+		// 		margin-bottom: 1rem;
+		// 	}
+		// 	p {
+		// 		width: 90%;
+		// 		// text-align: center;
+		// 		// text-justify: auto;
+		// 		text-align: justify;
+		// 		text-justify: inter-word;
+		// 		font-family: 'Raleway', sans-serif;
+		// 	}
 	}
 }
