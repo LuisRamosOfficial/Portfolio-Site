@@ -130,31 +130,43 @@ const ProjectSlider: FC = () => {
 							<div className={styles.footbar}>
 								<h4>{e.Description}</h4>
 								<div className={styles.buttons}>
-									<button
-										onClick={() => {
-											window.open(e.Demo, '_blank');
-										}}
-										className={styles.DemoButton}
-									>
-										<img alt="Live Demo" src={demo} />
-									</button>
-									<button
-										onClick={() => {
-											window.open(e.Github, '_blank');
-										}}
-										className={styles.SourceButton}
-									>
-										<img alt="Source Code" src={source} />
-									</button>
+									{e.Demo && (
+										<button
+											onClick={() => {
+												window.open(e.Demo, '_blank');
+											}}
+											className={styles.DemoButton}
+										>
+											<img alt="Live Demo" src={demo} />
+										</button>
+									)}
+									{e.Github && (
+										<button
+											onClick={() => {
+												window.open(e.Github, '_blank');
+											}}
+											className={styles.SourceButton}
+										>
+											<img alt="Source Code" src={source} />
+										</button>
+									)}
+									{e.Download && (
+										<button
+											onClick={() => {
+												window.open(e.Github, '_blank');
+											}}
+											className={styles.SourceButton}
+										>
+											<img alt="Source Code" src={source} />
+										</button>
+									)}
 								</div>
 							</div>
 						</div>
 					))}
 				</Carousel>
 			</div>
-			<div
-				className={styles.ControlDots}
-			>
+			<div className={styles.ControlDots}>
 				{indexes.map((element) => (
 					<>
 						{currentSlider == element ? (
@@ -168,6 +180,5 @@ const ProjectSlider: FC = () => {
 		</div>
 	);
 };
-
 
 export default ProjectSlider;

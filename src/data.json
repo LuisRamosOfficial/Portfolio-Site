@@ -53,25 +53,32 @@
 	},
 	"Projects": [
 		{
-			"Name": "Exchange Rate in NextJS",
-			"ScreenShot": "https://github.com/LuisRamosOfficial/Exchange-Rate-in-NextJS/raw/main/Screenshots/2.png",
-			"Description": "A website where you can calculate live currency and foreign exchange rates with the Exchange Rate API",
-			"Demo": "http://exchange-rate-in-next-js.vercel.app/",
-			"Github": "https://github.com/LuisRamosOfficial/Exchange-Rate-in-NextJS"
-		},
-		{
 			"Name": "API JSON SAVER",
 			"ScreenShot": "https://github.com/LuisRamosOfficial/API-JSON-Saver/raw/main/Screenshots/1.png",
 			"Description": "Saving the json of a API with javascript",
-			"Demo": "http://exchange-rate-in-next-js.vercel.app/",
+			"Demo": "http://apisaver.luisviegas.art/",
 			"Github": "https://github.com/LuisRamosOfficial/API-JSON-Saver"
 		},
 		{
 			"Name": "Registration Page with React",
 			"ScreenShot": "https://github.com/LuisRamosOfficial/Registration-Page-with-React/raw/main/Screenshots/2.png",
 			"Description": "A Registration Page with React and some good loking CSS Animations",
-			"Demo": "http://exchange-rate-in-next-js.vercel.app/",
+			"Demo": "http://registration.luisviegas.art/",
 			"Github": "https://github.com/LuisRamosOfficial/Registration-Page-with-React"
+		},
+		{
+			"Name": "RealTime Chat with Firebase",
+			"ScreenShot": "https://raw.githubusercontent.com/LuisRamosOfficial/RealTime-Chat-App/main/Screenshots/1.png",
+			"Description": "A realtime chat made with firebase and Reactjs",
+			"Download": "http://chat.luisviegas.art/",
+			"Github": "https://github.com/LuisRamosOfficial/RealTime-Chat-App"
+		},
+		{
+			"Name": "Image Sharing App",
+			"ScreenShot": "https://github.com/LuisRamosOfficial/Sharing-Image-App/blob/main/Screenshots/1.png?raw=true",
+			"Description": "An Image Sharing Application with firebase",
+			"Download": "http://img.luisviegas.art/",
+			"Github": "https://github.com/LuisRamosOfficial/Sharing-Image-App"
 		}
 	]
 }
