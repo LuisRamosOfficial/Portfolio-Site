@@ -70,14 +70,14 @@
 			"Name": "RealTime Chat with Firebase",
 			"ScreenShot": "https://raw.githubusercontent.com/LuisRamosOfficial/RealTime-Chat-App/main/Screenshots/1.png",
 			"Description": "A realtime chat made with firebase and Reactjs",
-			"Download": "http://chat.luisviegas.art/",
+			"Demo": "http://chat.luisviegas.art/",
 			"Github": "https://github.com/LuisRamosOfficial/RealTime-Chat-App"
 		},
 		{
 			"Name": "Image Sharing App",
 			"ScreenShot": "https://github.com/LuisRamosOfficial/Sharing-Image-App/blob/main/Screenshots/1.png?raw=true",
 			"Description": "An Image Sharing Application with firebase",
-			"Download": "http://img.luisviegas.art/",
+			"Demo": "http://img.luisviegas.art/",
 			"Github": "https://github.com/LuisRamosOfficial/Sharing-Image-App"
 		}
 	]
