@@ -150,16 +150,7 @@ const ProjectSlider: FC = () => {
 											<img alt="Source Code" src={source} />
 										</button>
 									)}
-									{e.Download && (
-										<button
-											onClick={() => {
-												window.open(e.Github, '_blank');
-											}}
-											className={styles.SourceButton}
-										>
-											<img alt="Source Code" src={source} />
-										</button>
-									)}
+									
 								</div>
 							</div>
 						</div>
