@@ -57,6 +57,13 @@
 	},
 	"Projects": [
 		{
+			"Name": "URL Shortening Tool",
+			"ScreenShot": "https://github.com/user-attachments/assets/4acc8e0d-fbdf-4499-b32a-420fa3951c51",
+			"Description": "An Url shortener made with SolidJs and Express",
+			"Demo": "http://zvide.fun/",
+			"Github": "https://github.com/LuisRamosOfficial/URL-Shortening-Tool"
+		},
+		{
 			"Name": "API JSON SAVER",
 			"ScreenShot": "https://github.com/LuisRamosOfficial/API-JSON-Saver/raw/main/Screenshots/1.png",
 			"Description": "Saving the json of a API with javascript",
