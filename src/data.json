@@ -6,6 +6,10 @@
 				"Icon": "https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
 			},
 			{
+				"Name": "Java",
+				"Icon": "https://static-00.iconduck.com/assets.00/java-icon-1511x2048-6ikx8301.png"
+			},
+			{
 				"Name": "HTML",
 				"Icon": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
 			},
@@ -19,7 +23,7 @@
 			},
 			{
 				"Name": "C#",
-				"Icon": "https://camo.githubusercontent.com/8d56e87edf99e89bfc457cd62462e0b7aae19e6b197b1df5c542d474d8d76f81/68747470733a2f2f646576656c6f7065722e6665646f726170726f6a6563742e6f72672f7374617469632f6c6f676f2f6373686172702e706e67"
+				"Icon": "https://static-00.iconduck.com/assets.00/c-sharp-c-icon-1822x2048-wuf3ijab.png"
 			}
 		],
 		"Front-End": [
@@ -33,7 +37,7 @@
 			},
 			{
 				"Name": "Three JS",
-				"Icon": "https://global.discourse-cdn.com/standard17/uploads/threejs/optimized/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751_2_1016x1024.png"
+				"Icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUyPLMCrdBvL7byu5KkMnOssbQigrkiRxZw&s"
 			},
 			{
 				"Name": "Redux",
