@@ -31,10 +31,7 @@
 				"Name": "React JS",
 				"Icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
 			},
-			{
-				"Name": "NextJS",
-				"Icon": "https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png"
-			},
+			
 			{
 				"Name": "Three JS",
 				"Icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhUyPLMCrdBvL7byu5KkMnOssbQigrkiRxZw&s"
@@ -52,6 +49,10 @@
 			{
 				"Name": "Django \n(Python)",
 				"Icon": "https://framagit.org/uploads/-/system/project/avatar/28062/django.png"
+			},
+			{
+				"Name": "NextJS",
+				"Icon": "https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png"
 			}
 		]
 	},
@@ -64,6 +65,27 @@
 			"Github": "https://github.com/LuisRamosOfficial/URL-Shortening-Tool"
 		},
 		{
+			"Name": "Money Converter",
+			"ScreenShot": "https://github.com/LuisRamosOfficial/Exchange-Rate-in-NextJS/raw/main/Screenshots/1.png",
+			"Description": "Exchange between currencies!",
+			"Demo": "https://exchange-rate-in-next-js.vercel.app/",
+			"Github": "https://github.com/LuisRamosOfficial/Exchange-Rate-in-NextJS"
+		},
+		{
+			"Name": "SiteStar 10 - Empoderamento da Mulher",
+			"ScreenShot": "https://private-user-images.githubusercontent.com/120321858/434776178-2606c77b-e48b-4499-9a27-d398b2f8b6c9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQ4ODk4NDAsIm5iZiI6MTc0NDg4OTU0MCwicGF0aCI6Ii8xMjAzMjE4NTgvNDM0Nzc2MTc4LTI2MDZjNzdiLWU0OGItNDQ5OS05YTI3LWQzOThiMmY4YjZjOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQxN1QxMTMyMjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZmNhYjAyMjkxYWQzOTM4NjVlZTA5NGQ2ZGNmYmJkYTdlNzgwMGIxZWUxZGE3N2FkYzU2Mzg2OTI5MDQxMWQ2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.J9kD8RHWgWavq-X6o6QfML4y3qFy63RiTF9wyU_xDOw",
+			"Description": "My project for a high school programming competition about women's empowerment",
+			"Demo": "https://vercel.com/luisramosofficials-projects/site-star-10-empoderamento-da-mulher/CHocBFQjg58jHAfzTjEirovDfoD6",
+			"Github": "https://github.com/LuisRamosOfficial/SiteStar-10-Empoderamento-da-Mulher"
+		},
+		{
+			"Name": "Music Tag Editor",
+			"ScreenShot": "https://private-user-images.githubusercontent.com/120321858/434778443-a0c0f2a7-86b1-4ecb-833c-93b7a07c6e27.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQ4OTAyNzksIm5iZiI6MTc0NDg4OTk3OSwicGF0aCI6Ii8xMjAzMjE4NTgvNDM0Nzc4NDQzLWEwYzBmMmE3LTg2YjEtNGVjYi04MzNjLTkzYjdhMDdjNmUyNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQxN1QxMTM5MzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMGM5ODY5MTQ5ZTcyNGRiYzljY2U1MDQyNGViYTBmODFhNjExNWMyN2MyYmZkZjI4MTU1MDdmMTY4OTgyODI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.7vOvlciNT6jAYGdw2s6gpLAbLoj6Mk_h4V5S0OUThts",
+			"Description": "MMy project takes an MP3 file and automatically sets the correct metadata for it",
+			"Demo": "https://music-tag-editor.vercel.app/",
+			"Github": "https://github.com/LuisRamosOfficial/Music-Tag-Editor"
+		},
+		{
 			"Name": "API JSON SAVER",
 			"ScreenShot": "https://github.com/LuisRamosOfficial/API-JSON-Saver/raw/main/Screenshots/1.png",
 			"Description": "Saving the json of a API with javascript",
@@ -74,22 +96,10 @@
 			"Name": "Registration Page with React",
 			"ScreenShot": "https://github.com/LuisRamosOfficial/Registration-Page-with-React/raw/main/Screenshots/2.png",
 			"Description": "A Registration Page with React and some good loking CSS Animations",
-			"Demo": "http://registration.luisviegas.art/",
+			"Demo": "https://registration-page-with-react.vercel.app/",
 			"Github": "https://github.com/LuisRamosOfficial/Registration-Page-with-React"
 		},
-		{
-			"Name": "RealTime Chat with Firebase",
-			"ScreenShot": "https://raw.githubusercontent.com/LuisRamosOfficial/RealTime-Chat-App/main/Screenshots/1.png",
-			"Description": "A realtime chat made with firebase and Reactjs",
-			"Demo": "http://chat.luisviegas.art/",
-			"Github": "https://github.com/LuisRamosOfficial/RealTime-Chat-App"
-		},
-		{
-			"Name": "Image Sharing App",
-			"ScreenShot": "https://github.com/LuisRamosOfficial/Sharing-Image-App/blob/main/Screenshots/1.png?raw=true",
-			"Description": "An Image Sharing Application with firebase",
-			"Demo": "http://img.luisviegas.art/",
-			"Github": "https://github.com/LuisRamosOfficial/Sharing-Image-App"
-		}
+		
+	
 	]
 }
