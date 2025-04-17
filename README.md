@@ -1,5 +1,8 @@
 # Portfolio Website with React
 
+![image](https://github.com/user-attachments/assets/5ca952a6-faa9-428a-b9c0-01ae00910bfb)
+
+
 This portfolio website showcases my skills and projects as a web developer. The website is built using React.
 
 ## First Part with ThreeJS
